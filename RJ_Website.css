@@ -1,0 +1,34 @@
+.nav {
+	border-radius: 5px;
+	border: 2px ridge black;
+}
+
+.nav li {
+	display: inline;
+	font-size: 14px;
+	font-family: Verdana;
+}
+
+#floatleft {
+	float: left;
+	position: relative;
+} 
+
+#floatright {
+	float: right;
+	position: relative;
+}
+
+.nav .subnav {
+	display: none;
+}
+
+#floatright li:hover .subnav {
+	display: block;
+}
+
+.subnav {
+	position: absolute;
+	left: 0px;
+}
+
