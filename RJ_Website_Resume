@@ -1,0 +1,59 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="RJ_Website_Resume.css">
+  <title>RJ Resume</title>
+<body>
+	<header>
+		<h1>Rob Jordan</h1>
+			<p>137 Avenue A, Apt. 3A, NY NY 10009</p>
+			<p>000-000-0000</p>
+				<a href="robertjordan33@gmail.com">robertjordan33@gmail.com</a>
+				<a href="https://twitter.com/RobertJordan33">Twitter: @robertjordan33</a>
+				<a href="www.linkedin.com/pub/rob-jordan/1b/405/951/">LinkedIn</a>
+	</header>
+		<section>
+			<h3 class="Topics">Professional Experience</h3>
+				<p>
+					<div class="Jobs">
+						<ul>
+							<li>Epiq Systems Inc.</li>
+								<p>Blah Blah Blah</p>
+							<li>Third Avenue Management</li>
+								<p>Blah Blah Blah</p>
+							<li>Weil, Gotshal & Manges, LLP</li>
+								<p>Blah Blah Blah</p>
+						</ul></div>
+				</p>		
+		</section>
+		<section>
+			<h3 class="Topics">Education</h3>
+				<p>
+					<ul>
+						<li>George Washington Law School</li>
+						<li>Johns Hopkins School of Advanced International Studies</li>
+						<li>Rutgers College, Rutgers University</li>
+					</ul>
+				</p>		
+		</section>
+		<section>
+			<h3 class="Topics">Personal Interests</h3>
+				<p>
+					<ul>
+						<li>Marathon Runner
+							<ol>
+								<li>2013 NYC: 3:33</li>
+								<li>2012 Philly: 3:30</li>
+								<li>2011 NYC: 4:01</li>
+							</ol>
+						</li>
+						<li>Musician: Guitar/Ukelele
+
+		</section>
+
+		<footer>
+
+		</footer>
+	</body>
+
+	</html>
