@@ -1,12 +1,18 @@
+
+
 .nav {
 	border-radius: 5px;
-	border: 2px ridge black;
+	border: 2px ridge red;
+	background-color: aquamarine;
+	padding: 5px;
+
 }
 
 .nav li {
 	display: inline;
 	font-size: 14px;
-	font-family: Verdana;
+	font-family: "Times New Roman";
+	padding: 5px;
 }
 
 #floatleft {
@@ -14,9 +20,14 @@
 	position: relative;
 } 
 
+#floatleft li {
+	margin-right: 10px;
+}
+
 #floatright {
 	float: right;
 	position: relative;
+	right: 30;
 }
 
 .nav .subnav {
@@ -30,5 +41,37 @@
 .subnav {
 	position: absolute;
 	left: 0px;
+	z-index: 2;
+	background-color: white;
 }
 
+.main #mainphoto {
+	position: relative;
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+
+.main #maincontent {
+	position: absolute;
+	padding: 10px;
+	top: 10;
+	left: 10;
+}
+
+.publications {
+	float: left;
+	position: absolute;
+	border: 2px ridge black;
+	width: 33%;
+	background-color: aquamarine;
+}
+
+.photos {
+	float: right;
+	position: relative;
+	width: 66%;
+	top 10;
+	border: 2px ridge red;
+	background-color: aquamarine;
+}
